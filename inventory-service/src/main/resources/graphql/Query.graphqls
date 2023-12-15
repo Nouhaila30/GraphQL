@@ -1,0 +1,6 @@
+type Query {
+    videoById(id:Float) : VideoDto
+    creatorById(id :Float) : CreatorDto
+    findAllCreator: [CreatorDto]
+    findAllVideo:[VideoDto]
+}

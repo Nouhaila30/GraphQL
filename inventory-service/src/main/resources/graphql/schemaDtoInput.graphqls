@@ -1,0 +1,11 @@
+input VideoDtoInput{
+    name : String,
+    url : String,
+    description : String,
+    datePublication : String,
+    creator : CreatorDtoInput
+}
+input CreatorDtoInput{
+    name : String,
+    email : String
+}
